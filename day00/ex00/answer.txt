@@ -1,0 +1,13 @@
+As an introduction, complete the following questionnaire using Python and pip, save your answers in a file answers.txt (write an answer per line in the text file), and check them with your peers.
+
+Find the commands to:
+
+Output a list of installed packages.
+
+Output a list of installed packages and their versions.
+
+Show the package metadata of numpy.
+
+Search for PyPI packages whose name or summary contains "tesseract".
+
+Freeze the packages and their current versions in a requirements.txt file you have to turn-in.
