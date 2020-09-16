@@ -6,7 +6,7 @@
 #    By: yujo <yujo@student.42seoul.kr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/09/16 13:27:46 by yujo              #+#    #+#              #
-#    Updated: 2020/09/16 13:51:35 by yujo             ###   ########.fr        #
+#    Updated: 2020/09/16 20:45:48 by yujo             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ languages = {
     'PHP': 'Rasmus Lerdorf',
 }
 
-for key in languages.keys() :
+for key in languages.keys():
     print(key, "was created by", languages[key])
 
 

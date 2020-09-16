@@ -6,7 +6,7 @@
 #    By: yujo <yujo@student.42seoul.kr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/09/16 10:56:19 by yujo              #+#    #+#              #
-#    Updated: 2020/09/16 11:19:26 by yujo             ###   ########.fr        #
+#    Updated: 2020/09/16 20:45:58 by yujo             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ def text_analyzer(str):
     lower_count = 0
     punctuation_count = 0
     space_count = 0
-    
+
     for char in str:
         if (char.isupper()):
             upper_count += 1
@@ -32,6 +32,3 @@ def text_analyzer(str):
     print('-', lower_count, 'lower letters')
     print('-', punctuation_count, 'punctuation marks')
     print('-', space_count, 'spaces')
-    
-
-
