@@ -6,7 +6,7 @@
 #    By: yujo <yujo@student.42seoul.kr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/09/17 11:08:19 by yujo              #+#    #+#              #
-#    Updated: 2020/09/17 12:53:18 by yujo             ###   ########.fr        #
+#    Updated: 2020/09/17 12:53:52 by yujo             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,6 @@ for str in sys.argv[1:]:
         sys.exit()
 
 # Str to Morse
-
 result = ''
 for str in sys.argv[1:]:
     str_result = ''
